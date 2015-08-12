@@ -50,7 +50,7 @@ INPUT2: scissors
 
 OUTPUT: Player 2.
 
-----------------------------CASE ------------------------
+----------------------------CASE 7------------------------
 BEHAVIOR - PLAIN ENGLISH
 Matching inputs.
 INPUT1: "rock", "paper" or "scissors"

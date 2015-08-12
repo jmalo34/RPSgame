@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+   <html>
+        <head>
+            <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+            <title>Rock, Paper, Scissors!</title>
+        </head>
+        <body>
+            <div class="container">
+                <form action="/results" method="post">
+
+                <h1>Let's play Rock, Paper, Scissors!</h1>
+                <p>We really like to play this game, don't you? First, both players choose their weapon of choice, then, hit submit to see who wins!</p>
+                <div class="row">
+                <div class="col-md-6" id="player1">
+                <h4>Player one:</h4>
+                <button class="btn btn-default" name="first_input" value="rock" type="button">Rock</button>
+                <button class="btn btn-default" name="first_input" value="paper" type="button">Paper</button>
+                <button class="btn btn-default" name="first_input" value="scissors" type="button">Scissors</button>
+                    <!--this is where player one's buttons will be-->
+                </div>
+                <div class="col-md-6" id="player2">
+                <h4>Player two:</h4>
+                <button class="btn btn-default" name="second_input" value="rock" type="button">Rock</button>
+                <button class="btn btn-default" name="second_input" value="paper" type="button">Paper</button>
+                <button class="btn btn-default" name="second_input" value="scissors" type="button">Scissors</button>
+                    <!--this is where player two's buttons will be-->
+                </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class= "col-md-12" id="submit">
+
+                    <!--submit button here-->
+                    <button class="btn btn-default" type="submit">PLAY!!</button>
+                </div>
+            </div>
+
+            </form>
+        </body>
+</html>

@@ -29,10 +29,11 @@
             return "Player 2";
         }
 
-
-
-
-
+        //CASE 7
+        else  {
+            return "Players Draw";
         }
+
+    }
     }
  ?>

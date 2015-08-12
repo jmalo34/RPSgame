@@ -93,8 +93,23 @@
             //Assert
             $this->assertEquals("Player 2", $result);
         }
+        //CASE 7
+        function test_equalinputs()
+        {
+            //Arrange
+            $test_RockPaperScissors = new RockPaperScissors;
+            $first_input = "paper";
+            $second_input = "paper";
 
-    
+            //Act
+            $result = $test_RockPaperScissors->playRockPaperScissors($first_input, $second_input);
+
+            //Assert
+            $this->assertEquals("Players Draw", $result);
+        }
+
+
+
     }
 
 
