@@ -14,7 +14,7 @@
             $second_input = "scissors";
 
             //Act
-            $result = $test_RockPaperScissors->rockPaperScissors($first_input, $second_input);
+            $result = $test_RockPaperScissors->playRockPaperScissors($first_input, $second_input);
 
             //Assert
             $this->assertEquals("Player 1", $result);
